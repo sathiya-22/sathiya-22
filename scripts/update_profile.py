@@ -73,63 +73,45 @@ def gather_stats() -> dict:
 README_TEMPLATE = """\
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:283457,100:7aa2f7&height=200&section=header&text=AutoScout&fontSize=60&fontColor=c0caf5&animation=fadeIn&fontAlignY=35&desc=Autonomous%20Agentic-AI%20Builder&descAlignY=55&descSize=20&descColor=7aa2f7" />
-
-<a href="https://github.com/{owner}">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=7AA2F7&center=true&vCenter=true&width=650&lines=Scouting+real+problems+from+HN%2C+GitHub%2C+Stack+Overflow;Generating+%2B+advancing+projects+%E2%80%94+every+single+day;Gemini+%2B+Groq+powered%2C+running+while+I+sleep" alt="Typing SVG" />
-</a>
-
-<p>
-<a href="https://github.com/{owner}/{lab_repo}"><img src="https://img.shields.io/badge/status-running%20daily-brightgreen.svg" /></a>
-<a href="https://github.com/{owner}/{lab_repo}/stargazers"><img src="https://img.shields.io/github/stars/{owner}/{lab_repo}.svg?logo=github&color=7aa2f7" /></a>
-<a href="https://github.com/{owner}/{lab_repo}/network/members"><img src="https://img.shields.io/github/forks/{owner}/{lab_repo}.svg?logo=github&color=7aa2f7" /></a>
-<a href="https://github.com/{owner}/{lab_repo}/graphs/contributors"><img src="https://img.shields.io/github/contributors/{owner}/{lab_repo}?color=7aa2f7" /></a>
-<img src="https://visitor-badge.laobi.icu/badge?page_id={owner}.{owner}&color=7aa2f7" alt="visitors"/>
-</p>
-
-<p>
-<a href="https://www.linkedin.com/in/sathiyasendinath/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="mailto:sendilnathsathiya@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
+<img width="100%" height="120" src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1b27,100:283457" />
 
 </div>
 
-### 🤖 AutoScout — a system that builds while I sleep
+<h1 align="center">AutoScout</h1>
+<p align="center">An autonomous system that scouts real problems in agentic AI and builds solutions for them — every day, without me touching it.</p>
 
-Every day, three independent processes run without me touching them:
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=400&size=15&duration=3000&pause=1200&color=7AA2F7&center=true&vCenter=true&width=520&lines=Scouting+HN%2C+GitHub%2C+Stack+Overflow;Building+%2B+advancing+projects+daily;Gemini+%2B+Groq%2C+running+while+I+sleep" alt="Typing SVG" />
+</div>
 
-1. **Scout** — pulls real pain points from Hacker News, GitHub, and Stack \
-Overflow, filtered to agentic AI (agent orchestration, memory, evals, \
-guardrails, MCP, multi-agent coordination).
-2. **Generate** — builds a new prototype repo targeting the highest-signal \
-problem, in whatever language/format actually fits it.
-3. **Advance** — two independent engines each pick one existing repo per \
-day and push it one genuine step further, backed by live research:
-   - a Gemini-powered loop in [AutoScout-Lab](https://github.com/{owner}/{lab_repo})
-   - a Groq-powered loop in [AutoScout-Engine](https://github.com/{owner}/{engine_repo})
+<br>
 
-**📊 Live stats** (auto-updated daily, last refreshed {updated}):
-
-| | |
-|---|---|
-| Running since | 2026-07-07 ({days_running} days) |
-| Repos generated | {total_repos} |
-| Gemini maturation passes | {gemini_passes} |
-| Groq advancement passes | {groq_passes} |
-{digest_row}
-
-🔗 [AutoScout-Lab](https://github.com/{owner}/{lab_repo}) (orchestrator + \
-scout + generator) · [AutoScout-Engine](https://github.com/{owner}/{engine_repo}) \
-(deep research-backed advancement)
+Three processes run independently, every day. **Scout** pulls real pain points from the agentic-AI community — agent orchestration, memory, evals, guardrails, MCP. **Generate** builds a new prototype targeting the strongest signal, in whatever language actually fits it. **Advance** — two separate engines, a Gemini-powered one in [AutoScout-Lab](https://github.com/{owner}/{lab_repo}) and a Groq-powered one in [AutoScout-Engine](https://github.com/{owner}/{engine_repo}) — each push one existing repo a genuine step further, grounded in live research.
 
 <br>
 
 <div align="center">
 
-<img height="165em" src="https://github-stats-extended.vercel.app/api?username={owner}&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" />
-<img height="165em" src="https://streak-stats.demolab.com/?user={owner}&theme=tokyonight&hide_border=true" />
+<table>
+<tr><td align="center"><b>{days_running}</b><br><sub>days running</sub></td>
+<td align="center"><b>{total_repos}</b><br><sub>repos generated</sub></td>
+<td align="center"><b>{gemini_passes}</b><br><sub>Gemini passes</sub></td>
+<td align="center"><b>{groq_passes}</b><br><sub>Groq passes</sub></td></tr>
+</table>
 
-<img width="55%" src="https://github-stats-extended.vercel.app/api/top-langs/?username={owner}&layout=compact&theme=tokyonight&hide_border=true" />
+<sub>auto-updated daily · last refreshed {updated}{digest_suffix}</sub>
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![Groq](https://img.shields.io/badge/-Groq-F55036?style=flat-square&logoColor=white)
+![Pydantic](https://img.shields.io/badge/-Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 </div>
 
@@ -147,49 +129,27 @@ scout + generator) · [AutoScout-Engine](https://github.com/{owner}/{engine_repo
 
 <br>
 
-**🛠️ AutoScout's stack**
-
-| | |
-|---|---|
-| **Language** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| **Models** | ![Gemini](https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Groq](https://img.shields.io/badge/-Groq-F55036?style=flat-square&logoColor=white) |
-| **Validation** | ![Pydantic](https://img.shields.io/badge/-Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white) |
-| **Automation** | ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![GitHub API](https://img.shields.io/badge/-GitHub%20API-181717?style=flat-square&logo=github&logoColor=white) |
-
 <div align="center">
 
-<a href="https://github.com/{owner}"><img src="https://github-trophies.vercel.app/?username={owner}&theme=tokyonight&no-frame=true&margin-w=8" alt="trophies" /></a>
+<a href="https://www.linkedin.com/in/sathiyasendinath/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:sendilnathsathiya@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
 
 </div>
 
-**🔄 How it fits together**
-
-```mermaid
-graph LR;
-    A[🔭 Scout<br/>HN + GitHub + SO] -->|real problems| B[⚙️ Generate<br/>Gemini];
-    B -->|new repo| C[🔧 Maturation<br/>Gemini, daily];
-    B -->|new repo| D[⚡ Advancement<br/>Groq, daily];
-    C --> E[📈 Growing repos];
-    D --> E;
-    E -->|weekly pick| F[🚀 Major build];
-```
+<br>
 
 <div align="center">
-
-<img width="100%" src="https://raw.githubusercontent.com/{owner}/{owner}/output/github-metrics.svg" alt="metrics dashboard" />
-
+<img width="100%" height="80" src="https://capsule-render.vercel.app/api?type=rect&color=0:283457,100:1a1b27" />
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:283457,100:1a1b27&height=120&section=footer" />
 """
 
 
 def render(stats: dict) -> str:
-    digest_row = (f"| Today's activity | [→ digest]({stats['digest_url']}) |"
-                 if stats["digest_url"] else "")
+    digest_suffix = (f" · [today's activity]({stats['digest_url']})"
+                     if stats["digest_url"] else "")
     return README_TEMPLATE.format(owner=OWNER, lab_repo=LAB_REPO,
                                   engine_repo=ENGINE_REPO,
-                                  digest_row=digest_row, **stats)
+                                  digest_suffix=digest_suffix, **stats)
 
 
 def main() -> None:
