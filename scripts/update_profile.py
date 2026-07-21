@@ -77,7 +77,12 @@ README_TEMPLATE = """\
 
 </div>
 
-<h1 align="center">AutoScout</h1>
+<h1 align="center">Sathiya Sendilnath</h1>
+<p align="center">Building systems end-to-end — Linux infrastructure, backend automation, and applied AI.</p>
+
+<br>
+
+<h2 align="center">AutoScout</h2>
 <p align="center">An autonomous system that scouts real problems in agentic AI and builds solutions for them — every day, without me touching it.</p>
 
 <div align="center">

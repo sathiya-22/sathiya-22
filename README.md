@@ -4,7 +4,12 @@
 
 </div>
 
-<h1 align="center">AutoScout</h1>
+<h1 align="center">Sathiya Sendilnath</h1>
+<p align="center">Building systems end-to-end — Linux infrastructure, backend automation, and applied AI.</p>
+
+<br>
+
+<h2 align="center">AutoScout</h2>
 <p align="center">An autonomous system that scouts real problems in agentic AI and builds solutions for them — every day, without me touching it.</p>
 
 <div align="center">
@@ -20,13 +25,13 @@ Three processes run independently, every day. **Scout** pulls real pain points f
 <div align="center">
 
 <table>
-<tr><td align="center"><b>14</b><br><sub>days running</sub></td>
-<td align="center"><b>19</b><br><sub>repos generated</sub></td>
-<td align="center"><b>7</b><br><sub>Gemini passes</sub></td>
+<tr><td align="center"><b>15</b><br><sub>days running</sub></td>
+<td align="center"><b>20</b><br><sub>repos generated</sub></td>
+<td align="center"><b>8</b><br><sub>Gemini passes</sub></td>
 <td align="center"><b>8</b><br><sub>Groq passes</sub></td></tr>
 </table>
 
-<sub>auto-updated daily · last refreshed 2026-07-20 · [today's activity](https://github.com/sathiya-22/AutoScout-Lab/issues/17)</sub>
+<sub>auto-updated daily · last refreshed 2026-07-21 · [today's activity](https://github.com/sathiya-22/AutoScout-Lab/issues/18)</sub>
 
 </div>
 
